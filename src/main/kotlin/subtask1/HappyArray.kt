@@ -5,7 +5,7 @@ class HappyArray {
     // TODO: Complete the following function
     fun convertToHappy(sadArray: IntArray): IntArray {
     //    throw NotImplementedError("Not implemented")
-        if (sadArray.size>1) {
+        if (sadArray.size>2) {
             var list: MutableList<Int>
             var isH = false
             var happyArray: Array<Int>
